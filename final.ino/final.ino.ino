@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3K5L-8SZN"
+#define BLYNK_TEMPLATE_ID "*******************"
 #define BLYNK_TEMPLATE_NAME "Smart vehicle headlight auto switching"
-#define BLYNK_AUTH_TOKEN "baj4fAlDYtQa17UQQrslU5cWcmPYWaSJ"
+#define BLYNK_AUTH_TOKEN "*****************"
 
 #define BLYNK_PRINT Serial
 #include <Wire.h>
@@ -18,12 +18,9 @@
 //OUT pin 
 #define Hazard_light D6
 #define Light_pin D5
-const char* ssid = "arthanari";
-const char* password ="12345678";
-// const char* ssid = "OPPOReno8T5G";
-// const char* password ="OPPO8T5G";
-// const char* ssid = "Redmi13C5G";
-// const char* password ="latha3844";
+
+const char* ssid = "******************";
+const char* password ="**********";
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 bool value;
